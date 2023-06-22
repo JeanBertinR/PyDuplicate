@@ -1,1 +1,1 @@
-from .similarity_scorer import SimilarityScorer
+from PyDuplicate.similarity import SimilarityScorer
