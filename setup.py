@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 import codecs
 import os
 
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 DESCRIPTION = 'Python functions for Efficient duplicate detection'
 LONG_DESCRIPTION = 'Provides efficient and intuitive functionality for detecting and removing duplicates within a given dataset'
 
@@ -18,7 +18,7 @@ setup(
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     packages=find_packages(),
-    install_requires=['re', 'difflib', 'fuzzywuzzy', 'numpy'],
+    install_requires=['difflib', 'fuzzywuzzy', 'numpy'],
     keywords=['Duplicate detection', 'Efficient duplicate search'],
     classifiers=[
         "Development Status :: 1 - Planning",
